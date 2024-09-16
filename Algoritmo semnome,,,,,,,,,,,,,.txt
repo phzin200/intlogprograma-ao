@@ -1,0 +1,57 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : LARISSA RIBEIRO
+// Descrição   : Ler a idade de varias pessoas e calcular a media de idade, escrita quando o valor for negativo
+// Autor(a)    :GABRIEL DE JESUS E PAULO HENRIQUE
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+IDADE:INTEIRO
+MEDIA:REAL
+CONTADOR:INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("INSIRA IDADE:")
+   LEIA(IDADE)
+
+   ENQUANTO IDADE>=0 FACA
+      CONTADOR<-CONTADOR+1
+      MEDIA<-MEDIA+IDADE
+      ESCREVAL ("INSIRA IDADE:")
+      LEIA(IDADE)
+
+
+   FIMENQUANTO
+   
+   ESCREVAL("FORAM LIDAS", CONTADOR, "IDADES")
+   
+   MEDIA<-MEDIA/CONTADOR
+   ESCREVAL("A MEDIA DA IDADES DIGITADAS É:",MEDIA)
+   
+Fimalgoritmo
+;;;.............................................................
+
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : LARISSA RIBEIRO
+// Descrição   :LER UMA SEQUENCIA DE NUMEROS DO USUARIO E ESCREVA DOBRO DE CADA NUMERO LIDO ENCERRAR QUANDO O NUMERO DIGITADO FOR NEGATIVO
+// Autor(a)    :GABRIEL DE JESUS E PAULO HENRIQUE
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+   NUMERO, DOBRO:INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   ESCREVAL("INSIRA UM NUMERO")
+   LEIA(NUMERO)
+   
+   ENQUANTO NUMERO>=0 FACA
+            DOBRO<-NUMERO*2
+            ESCREVAL("O VALOR DO DOBRO DE ", NUMERO, "É: ",DOBRO)
+            ESCREVAL("INSIRA UM NUMERO")
+            LEIA (NUMERO)
+   FIMENQUANTO
+   
+Fimalgoritmo
