@@ -1,0 +1,105 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : paulo henrrique e gabriel jesus
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+   CONTADOR, SOMA:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+contador<-1
+
+enquanto contador <=10 faca
+         soma<- soma + contador
+         contador <- contador + 1
+fimenquanto
+
+escreval ("o VALOR DA SOMA É:", SOMA)
+
+Fimalgoritmo
+
+
+.................................................................................................................................
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Larissa Ribeiro
+// Descrição   : Escrever os numeros pares existentes de 1 a 20
+// Autor(a)    : paulo henrrique e gabriel jesus
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+   PAR, CONTADOR:INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    CONTADOR<-1
+    
+    ENQUANTO CONTADOR <=20 FACA
+          PAR<- CONTADOR%2
+
+
+          SE PAR=0 ENTAO
+             ESCREVAL(CONTADOR, "É PAR!")
+          FIMSE
+          
+          CONTADOR<-CONTADOR+1
+    FIMENQUANTO
+.................................................................................................................................
+Fimalgoritmo
+
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Larissa Ribeiro
+// Descrição   : Calcular um numero fatoiral
+// Autor(a)    : paulo henrrique e gabriel jesus
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+   NUMERO, FATORIAL:INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   FATORIAL<-1
+   ESCREVAL("DIGITE O VALOR QUE DESEJA SABER O FATORIAL")
+   LEIA(NUMERO)
+   
+   ENQUANTO NUMERO>=1 FACA
+
+            FATORIAL<-FATORIAL*NUMERO
+            NUMERO<- NUMERO - 1
+       ESCREVAL("O RESULTADO É:", FATORIAL)
+
+  FIMENQUANTO
+  
+Fimalgoritmo
+.................................................................................................................................
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Larissa Ribeiro
+// Descrição   : Ler 10 numeros de usuario e calcular a media
+// Autor(a)    : paulo henrrique e gabriel jesus
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis 
+   SOMA, NOTA, MEDIA: REAL
+   CONTADOR: INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   CONTADOR<-1
+   
+   ENQUANTO CONTADOR<=10 FACA
+   
+            ESCREVAL("INSIRA A NOTA")
+            LEIA(NOTA)
+            SOMA<- SOMA + NOTA
+
+            CONTADOR<-CONTADOR+1
+   FIMENQUANTO
+   
+   MEDIA<-SOMA/10
+   ESCREVAL("A MEDIA DOS VALORES INSERIDOS É:", MEDIA)
+Fimalgoritmo
